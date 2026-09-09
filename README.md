@@ -25,8 +25,18 @@ node scripts/check.mjs
 
 Regras de conteudo e de codigo estao no `CLAUDE.md`. Plano do dia em `docs/ROADMAP.md`.
 
+## Editar um case pelo Claude Code
+`/case <slug>` roda o ciclo inteiro num case (escrever, renderizar, criticar, corrigir, QA) e faz o
+commit. Os slugs estao no `STATE.md`. A ordem de exibicao na home vem do campo `order` de cada case
+em `data/cases.js`, nao da ordem do array.
+
 ## Publicar
-GitHub Pages, branch `main`, pasta raiz.
+1. Trabalho em andamento na branch `portfolio-v2`. A `main` ainda serve o site antigo.
+2. Antes do merge: `assets/felipe-de-almeida-cv.pdf` precisa existir (o hero linka para ele).
+3. `git checkout main && git merge portfolio-v2 && git push`.
+4. GitHub: Settings > Pages > Source = branch `main`, pasta `/` (raiz).
+5. URL: `https://felipelima2602.github.io/portfolio/`.
+6. Depois do merge, apague `Portfolio_FelipeAlmeida_PT_standalone.html` (o toggle EN/PT o substitui).
 
 Nota: a paleta vem do portfolio anterior e vive em `assets/styles.css` como CSS variables. Dark mode
 sai de graca pelo `prefers-color-scheme`.

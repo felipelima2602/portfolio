@@ -15,6 +15,7 @@
 <!-- Fallback estatico para crawlers que nao rodam JS. Em runtime o script
      reescreve title, description e og:* a partir de data/cases.js. -->
 <link rel="canonical" href="https://felipelima2602.github.io/portfolio/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%231f2a44'/%3E%3Ctext x='32' y='45' font-family='-apple-system,Segoe UI,Roboto,sans-serif' font-size='40' font-weight='700' fill='white' text-anchor='middle'%3EF%3C/text%3E%3C/svg%3E">
 <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
@@ -56,7 +57,7 @@ const copy = {
 
 const chips = (arr) => `<div class="chips">${arr.map(x => `<span class="chip">${esc(x)}</span>`).join('')}</div>`;
 
-// Metrica marcada como TODO:confirmar fica fora do ar ate o numero existir.
+// Metrica ainda sem numero confirmado fica fora do ar ate o valor existir.
 // O dado continua em cases.js e o scripts/check.mjs continua listando o pendente.
 const liveMetrics = (c) => (c.metrics || []).filter(m => !String(m.value).startsWith('TODO'));
 

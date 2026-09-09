@@ -24,7 +24,7 @@ export const profile = {
 export const cases = [
   {
     id: "webmotors-white-label",
-    order: 1,
+    order: 3,
     company: "Webmotors",
     role: { en: "Platform Product Manager", pt: "Platform Product Manager" },
     period: "06/2019 - 03/2021",
@@ -43,8 +43,8 @@ export const cases = [
       pt: "A Webmotors era o produto de classificados automotivos ja consolidado no Brasil, dentro do grupo Santander. A oportunidade nao estava em vender mais anuncio aqui dentro. Estava em transformar aquele produto em uma plataforma que outros mercados do grupo pudessem operar."
     },
     challenge: {
-      en: "A product born for one market carries hardcoded business rules, fees, journeys and integrations. I had to split the core from what was specific to each country without stopping the Brazilian operation. And without ending up with five different products to maintain.",
-      pt: "Um produto nascido para um unico mercado carrega regra de negocio, taxa, jornada e integracao hardcoded. Eu tinha que separar o core do que era especifico de cada pais sem parar a operacao brasileira. E sem terminar com cinco produtos diferentes para manter."
+      en: "A product born for one market carries hardcoded business rules, fees, journeys and integrations. I had to split the core from what was specific to each country. And do it without ending up with five different products to maintain.",
+      pt: "Um produto nascido para um unico mercado carrega regra de negocio, taxa, jornada e integracao hardcoded. Eu tinha que separar o core do que era especifico de cada pais. E fazer isso sem terminar com cinco produtos diferentes para manter."
     },
     actions: [
       {
@@ -98,7 +98,7 @@ export const cases = [
   },
   {
     id: "whirlpool-decision-support",
-    order: 2,
+    order: 1,
     company: "Whirlpool",
     role: { en: "Strategy Manager", pt: "Strategy Manager" },
     period: "04/2025 - present",
@@ -168,15 +168,15 @@ export const cases = [
   },
   {
     id: "farfetch-platform-revamp",
-    order: 3,
+    order: 2,
     company: "Farfetch",
     role: { en: "Platform Product Manager", pt: "Platform Product Manager" },
     period: "03/2022 - 02/2023",
     location: { en: "Porto, Portugal", pt: "Porto, Portugal" },
     tags: ["Platform", "B2B Marketplace", "APIs", "Architecture", "Luxury"],
     headline: {
-      en: "Luxury marketplace platform rebuilt as reusable services",
-      pt: "Plataforma do marketplace de luxo virou servicos reutilizaveis"
+      en: "One checkout for the group, not one per company",
+      pt: "Um checkout para o grupo, nao um por empresa"
     },
     hero: {
       en: "The group paid twice for the same checkout. I rebuilt the platform into services group companies now consume.",
@@ -224,8 +224,8 @@ export const cases = [
     ],
     metrics: [
       { label: { en: "Capabilities rebuilt as shared services", pt: "Capacidades reescritas como servicos" }, value: "4" },
-      { label: { en: "Operational freeze during the rewrite", pt: "Freeze de operacao durante a reescrita" }, value: "0" },
-      { label: { en: "Development teams led", pt: "Times de desenvolvimento liderados" }, value: "2" }
+      { label: { en: "Development teams led", pt: "Times de desenvolvimento liderados" }, value: "2" },
+      { label: { en: "Operational freeze during the rewrite", pt: "Freeze de operacao durante a reescrita" }, value: "0" }
     ],
     learning: {
       en: "I would have formalized the consumption contract with the client teams earlier. API alignment without an explicit contract turns into negotiation every sprint.",
@@ -234,7 +234,7 @@ export const cases = [
   },
   {
     id: "psafe-dfndr-monetization",
-    order: 4,
+    order: 5,
     company: "PSafe (dfndr security)",
     role: { en: "Senior Product Manager", pt: "Senior Product Manager" },
     period: "03/2021 - 03/2022",
@@ -300,7 +300,7 @@ export const cases = [
   },
   {
     id: "continental-predictive-strategy",
-    order: 5,
+    order: 4,
     company: "Continental",
     role: { en: "Competitive Intelligence & Strategy Specialist", pt: "Competitive Intelligence e Strategy Specialist" },
     period: "02/2023 - 03/2025",
@@ -355,8 +355,8 @@ export const cases = [
       }
     ],
     metrics: [
-      { label: { en: "New portfolio direction set", pt: "Nova direcao de portfolio definida" }, value: "Predictive" },
-      { label: { en: "Tread depth prediction error in the pilot", pt: "Erro de previsao de profundidade de sulco" }, value: "<1mm" }
+      { label: { en: "Tread depth prediction error in the pilot", pt: "Erro de previsao de profundidade de sulco" }, value: "<1mm" },
+      { label: { en: "Competitors benchmarked on three axes", pt: "Concorrentes analisados em tres eixos" }, value: "3" }
     ],
     learning: {
       en: "I would have pulled the product team into the competitive analysis earlier, to shorten the distance between the market read and the roadmap.",
