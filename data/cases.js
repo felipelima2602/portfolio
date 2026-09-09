@@ -14,7 +14,10 @@ export const profile = {
   location: { en: "Sao Paulo, Brazil", pt: "Sao Paulo, Brasil" },
   linkedin: "https://linkedin.com/in/felipelima2602",
   email: "felipelima2602@gmail.com",
-  cv: "assets/felipe-de-almeida-cv.pdf",
+  cv: {
+    en: "assets/felipe-de-almeida-cv.pdf",
+    pt: "assets/felipe-de-almeida-cv-pt.pdf"
+  },
   languages: {
     en: "Portuguese native, English and Spanish full professional",
     pt: "Portugues nativo, ingles e espanhol full professional"

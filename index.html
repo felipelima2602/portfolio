@@ -69,7 +69,7 @@ function hero() {
     <div class="actions">
       <a class="primary" href="${profile.linkedin}" target="_blank" rel="noopener">LinkedIn &rarr;</a>
       <a class="ghost" href="mailto:${profile.email}">${esc(profile.email)}</a>
-      <a class="ghost" href="${profile.cv}">${esc(t(copy.cv))}</a>
+      <a class="ghost" href="${t(profile.cv)}" download>${esc(t(copy.cv))}</a>
     </div>
   </div></header>`;
 }

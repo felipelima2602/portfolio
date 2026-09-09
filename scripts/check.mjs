@@ -24,6 +24,7 @@ function checkI18n(obj, path) {
 }
 
 for (const f of ['headline', 'pitch', 'location', 'languages']) checkI18n(profile[f], `profile.${f}`);
+for (const l of LANGS) if (!/\.pdf$/.test(profile.cv?.[l] || '')) errors.push(`profile.cv.${l}: precisa apontar para um PDF`);
 if (!/^https:\/\/(www\.)?linkedin\.com\//.test(profile.linkedin)) errors.push('profile.linkedin invalido');
 if (!/@/.test(profile.email)) errors.push('profile.email invalido');
 
