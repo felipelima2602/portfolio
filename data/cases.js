@@ -95,8 +95,77 @@ export const cases = [
       en: "I would build the per market configuration layer first. The first two countries paid for me to learn that in production.",
       pt: "Eu teria construido a camada de configuracao por mercado antes de tudo. Os dois primeiros paises pagaram a conta desse aprendizado em producao."
     }
+  },
+  {
+    id: "whirlpool-decision-support",
+    order: 2,
+    company: "Whirlpool",
+    role: { en: "Strategy Manager", pt: "Strategy Manager" },
+    period: "04/2025 - present",
+    location: { en: "Sao Paulo, Brazil, serving the US market", pt: "Sao Paulo, Brasil, atendendo o mercado US" },
+    tags: ["Analytics", "Decision Support", "D2C", "E-commerce", "AI", "Leadership"],
+    headline: {
+      en: "Analytics turned into investment decisions at $15.5B",
+      pt: "Analytics virou decisao de investimento em D2C de US$15.5B"
+    },
+    hero: {
+      en: "I turned a report queue into the decision system behind media and conversion investment in a $15.5B D2C.",
+      pt: "Virei uma fila de relatorio no sistema que decide investimento de midia e conversao num D2C de US$15.5B."
+    },
+    context: {
+      en: "I lead a team of 12 across Product Analytics, Merchandising Analytics, Experimentation and Operational Reporting. We support the e-commerce of Whirlpool, KitchenAid, Maytag, Amana and Gladiator, in partnership with WPP Commerce. The business moves $15.5 billion in annual sales.",
+      pt: "Lidero um time de 12 pessoas entre Product Analytics, Merchandising Analytics, Experimentation e Operational Reporting. Apoiamos o e-commerce de Whirlpool, KitchenAid, Maytag, Amana e Gladiator, em parceria com a WPP Commerce. O negocio movimenta US$ 15.5 bilhoes em vendas anuais."
+    },
+    challenge: {
+      en: "The team was being used as a report queue. A lot of output, almost no decision. Worse, the data underneath was contaminated: around 27% of visits went through session refresh, which distorted Last Touch Channel in Adobe Analytics and, with it, the channel performance read that justified media investment.",
+      pt: "O time era acionado como fila de pedidos de relatorio. Muito output, quase nenhuma decisao. Pior: o dado por baixo estava contaminado. Cerca de 27% das visitas passavam por session refresh, o que distorcia o Last Touch Channel no Adobe Analytics e, junto, a leitura de performance de canal que sustentava o investimento de midia."
+    },
+    actions: [
+      {
+        en: "Restructured the team into four fronts under one rule: no analysis ships unless it is attached to a decision or a concrete opportunity.",
+        pt: "Reestruturei o time em quatro frentes sob uma regra: nenhuma analise sai sem estar amarrada a uma decisao ou a uma oportunidade concreta."
+      },
+      {
+        en: "Chose to fix attribution before adding any new dashboard: diagnosed the session refresh issue and restored trust in the channel data.",
+        pt: "Decidi consertar a atribuicao antes de qualquer dashboard novo: diagnostiquei o problema de session refresh e devolvi confianca ao dado de canal."
+      },
+      {
+        en: "Ran an eight phase audit of the customer journey and exposed the phases we had never instrumented or measured.",
+        pt: "Conduzi uma auditoria da jornada do cliente em oito fases e expus as fases que nunca haviam sido instrumentadas nem medidas."
+      },
+      {
+        en: "Took ownership of the KPI framework and the executive performance reporting, so strategic diagnosis and D2C investment priorities sat in the same conversation.",
+        pt: "Assumi o framework de KPI e o reporting executivo de performance, colocando diagnostico estrategico e prioridade de investimento em D2C na mesma conversa."
+      },
+      {
+        en: "Made the team an early adopter of AI in the decision layer: agentic workflows over first-party data to surface conversion bottlenecks and pull operational reporting off manual work.",
+        pt: "Coloquei o time como early adopter de AI na camada de decisao: agentic workflows sobre first-party data para achar gargalo de conversao e tirar o reporting operacional do trabalho manual."
+      }
+    ],
+    outcome: [
+      {
+        en: "The corrected channel read changed which channels media budget backed. The old split had been built on the inflated Last Touch numbers.",
+        pt: "A leitura de canal corrigida mudou quais canais o budget de midia passou a sustentar. A divisao antiga tinha sido feita sobre o Last Touch inflado."
+      },
+      {
+        en: "The executive performance report now runs on the KPI framework I own, so investment priorities are argued from one shared read instead of ad hoc pulls.",
+        pt: "O reporting executivo de performance passou a rodar no framework de KPI que eu assumi, entao a prioridade de investimento e discutida a partir de uma leitura unica, nao de pedido avulso."
+      },
+      {
+        en: "The journey audit turned blind phases into a measurement backlog, so gaps became roadmap instead of guesswork.",
+        pt: "A auditoria de jornada transformou fases cegas em backlog de measurement, entao a lacuna virou roadmap no lugar de achismo."
+      }
+    ],
+    metrics: [
+      { label: { en: "Annual sales supported", pt: "Vendas anuais apoiadas" }, value: "$15.5B" },
+      { label: { en: "Visits with distorted attribution", pt: "Visitas com atribuicao distorcida" }, value: "~27%" },
+      { label: { en: "People led across four fronts", pt: "Pessoas lideradas em quatro frentes" }, value: "12" }
+    ],
+    learning: {
+      en: "I would have started with the instrumentation audit before any new dashboard. A good looking dashboard on broken data delays the decision.",
+      pt: "Teria comecado pela auditoria de instrumentacao antes de qualquer dashboard novo. Dashboard bonito sobre dado errado atrasa decisao."
+    }
   }
-  // Os demais quatro cases entram aqui pelo loop, na ordem do STATE.md:
-  // whirlpool-decision-support, farfetch-platform-revamp,
-  // psafe-dfndr-monetization, continental-predictive-strategy
+  // Os demais tres cases entram aqui pelo loop, na ordem do STATE.md:
+  // farfetch-platform-revamp, psafe-dfndr-monetization, continental-predictive-strategy
 ];
