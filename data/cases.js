@@ -165,7 +165,73 @@ export const cases = [
       en: "I would have started with the instrumentation audit before any new dashboard. A good looking dashboard on broken data delays the decision.",
       pt: "Teria comecado pela auditoria de instrumentacao antes de qualquer dashboard novo. Dashboard bonito sobre dado errado atrasa decisao."
     }
+  },
+  {
+    id: "farfetch-platform-revamp",
+    order: 3,
+    company: "Farfetch",
+    role: { en: "Platform Product Manager", pt: "Platform Product Manager" },
+    period: "03/2022 - 02/2023",
+    location: { en: "Porto, Portugal", pt: "Porto, Portugal" },
+    tags: ["Platform", "B2B Marketplace", "APIs", "Architecture", "Luxury"],
+    headline: {
+      en: "Luxury marketplace platform rebuilt as reusable services",
+      pt: "Plataforma do marketplace de luxo virou servicos reutilizaveis"
+    },
+    hero: {
+      en: "The group paid twice for the same checkout. I rebuilt the platform into services group companies now consume.",
+      pt: "O grupo pagava duas vezes pelo mesmo checkout. Reescrevi a plataforma em servicos que o grupo consome."
+    },
+    context: {
+      en: "I owned the transactional platform of Farfetch's B2B luxury marketplace. Two development teams reported into that roadmap. The scope covered the four capabilities the operation cannot run without: inventory management, checkout, shipping and returns.",
+      pt: "Eu era dono da plataforma transacional do marketplace B2B de luxo da Farfetch. Dois times de desenvolvimento respondiam por esse roadmap. O escopo cobria as quatro capacidades sem as quais a operacao nao roda: gestao de inventario, checkout, shipping e returns."
+    },
+    challenge: {
+      en: "The group kept paying for the same checkout and the same returns more than once, because each capability had been built for one company and stayed coupled to it. Every new group company that needed it got its own build. I had to rewrite the platform without stopping the operation already running on top of it.",
+      pt: "O grupo seguia pagando pelo mesmo checkout e pelo mesmo returns mais de uma vez, porque cada capacidade tinha sido construida para uma empresa e ficou acoplada a ela. Cada nova empresa do grupo que precisava dela ganhava o proprio desenvolvimento. Eu tinha que reescrever a plataforma sem parar a operacao que ja dependia dela."
+    },
+    actions: [
+      {
+        en: "Led the full revamp and chose modular architecture over patching: case specific features became reusable services, with journeys and integrations reviewed one by one.",
+        pt: "Liderei o revamp completo e escolhi arquitetura modular no lugar de remendo: funcionalidade especifica virou servico reutilizavel, com jornadas e integracoes revisadas uma a uma."
+      },
+      {
+        en: "Defined the APIs and system contracts around the capability itself, not around the first company that asked, so the next company could integrate without triggering a new build.",
+        pt: "Defini as APIs e os contratos de sistema em torno da capacidade em si, nao da primeira empresa que pediu, para a proxima empresa integrar sem disparar um novo desenvolvimento."
+      },
+      {
+        en: "Ran quarterly planning and prioritized the roadmap by capability, investment and business outcome instead of by whoever asked loudest.",
+        pt: "Conduzi o planejamento trimestral e priorizei o roadmap por capacidade, investimento e resultado de negocio, nao por quem pedia mais alto."
+      },
+      {
+        en: "Took the migration sequence and its trade-offs to stakeholders every quarter, so teams depending on the platform knew what moved when and what they had to wait for.",
+        pt: "Levei a sequencia da migracao e seus trade-offs aos stakeholders a cada trimestre, para que os times que dependiam da plataforma soubessem o que mudava quando e o que teriam que esperar."
+      }
+    ],
+    outcome: [
+      {
+        en: "The four critical capabilities became shared services, no longer features owned by a single use case.",
+        pt: "As quatro capacidades criticas viraram servicos compartilhados, nao mais funcionalidades presas a um unico caso de uso."
+      },
+      {
+        en: "A company that needed checkout or returns integrated an existing contract instead of starting its own build, so new launches began from a contract, not a blank page.",
+        pt: "A empresa que precisava de checkout ou returns passou a integrar um contrato existente no lugar de comecar o proprio desenvolvimento, entao o lancamento novo partia de um contrato, nao de uma pagina em branco."
+      },
+      {
+        en: "The rewrite shipped with the operation live. No freeze for the teams already depending on the platform.",
+        pt: "A reescrita saiu com a operacao no ar. Sem freeze para os times que ja dependiam da plataforma."
+      }
+    ],
+    metrics: [
+      { label: { en: "Capabilities rebuilt as shared services", pt: "Capacidades reescritas como servicos" }, value: "4" },
+      { label: { en: "Operational freeze during the rewrite", pt: "Freeze de operacao durante a reescrita" }, value: "0" },
+      { label: { en: "Development teams led", pt: "Times de desenvolvimento liderados" }, value: "2" }
+    ],
+    learning: {
+      en: "I would have formalized the consumption contract with the client teams earlier. API alignment without an explicit contract turns into negotiation every sprint.",
+      pt: "Teria formalizado antes o contrato de consumo com os times clientes. Alinhamento de API sem contrato explicito vira negociacao a cada sprint."
+    }
   }
-  // Os demais tres cases entram aqui pelo loop, na ordem do STATE.md:
-  // farfetch-platform-revamp, psafe-dfndr-monetization, continental-predictive-strategy
+  // Os demais dois cases entram aqui pelo loop, na ordem do STATE.md:
+  // psafe-dfndr-monetization, continental-predictive-strategy
 ];
