@@ -231,7 +231,73 @@ export const cases = [
       en: "I would have formalized the consumption contract with the client teams earlier. API alignment without an explicit contract turns into negotiation every sprint.",
       pt: "Teria formalizado antes o contrato de consumo com os times clientes. Alinhamento de API sem contrato explicito vira negociacao a cada sprint."
     }
+  },
+  {
+    id: "psafe-dfndr-monetization",
+    order: 4,
+    company: "PSafe (dfndr security)",
+    role: { en: "Senior Product Manager", pt: "Senior Product Manager" },
+    period: "03/2021 - 03/2022",
+    location: { en: "Sao Paulo, Brazil", pt: "Sao Paulo, Brasil" },
+    tags: ["Monetization", "Consumer App", "Gamification", "Retention", "Mobile"],
+    headline: {
+      en: "Value before the ad, at 6M active users",
+      pt: "Valor antes do ad, com 6M de ativos"
+    },
+    hero: {
+      en: "I swapped dfndr security's hard paywall for daily progression: returning users unlocked value and carried the ad inventory.",
+      pt: "Troquei o paywall do dfndr por progressao diaria: quem voltava destravava valor e carregava o inventario de ads."
+    },
+    context: {
+      en: "I owned strategy and delivery of dfndr security, a mobile security app with more than 6 million active users. That meant roadmap, backlog and the success metrics the product was judged by. Ads and paid features were the business model, not a side line.",
+      pt: "Eu era dono da estrategia e da entrega do dfndr security, app de seguranca mobile com mais de 6 milhoes de usuarios ativos. Isso incluia roadmap, backlog e as metricas de sucesso pelas quais o produto era cobrado. Ads e features pagas eram o modelo de negocio, nao um extra."
+    },
+    challenge: {
+      en: "Monetization was intrusive. The app charged attention before delivering anything, so the user met the offer before the value. Satisfaction and engagement fell, and fewer sessions made monetization itself less efficient: the model was eating the audience it depended on.",
+      pt: "A monetizacao era intrusiva. O app cobrava atencao antes de entregar qualquer coisa, entao o usuario encontrava a oferta antes do valor. Satisfacao e engagement caiam, e menos sessao deixava a propria monetizacao menos eficiente: o modelo consumia a audiencia da qual dependia."
+    },
+    actions: [
+      {
+        en: "Redesigned the journey so the app proves value first and the offer comes after, instead of gating the first useful action behind an ad.",
+        pt: "Redesenhei a jornada para o app provar valor primeiro e a oferta vir depois, no lugar de colocar um ad na frente da primeira acao util."
+      },
+      {
+        en: "Chose progression by daily use over a hard paywall: a level system that unlocks app functions as the user comes back.",
+        pt: "Escolhi progressao por uso diario no lugar de paywall duro: um sistema de niveis que destrava funcoes do app conforme o usuario volta."
+      },
+      {
+        en: "Put paid features inside that progression as real samples, not teasers: a daily VPN data allowance and core security functions running in background with a report.",
+        pt: "Coloquei as features pagas dentro dessa progressao como amostra de verdade, nao teaser: franquia diaria de megas de VPN e funcoes core de seguranca rodando em segundo plano com relatorio."
+      },
+      {
+        en: "Put short term ad revenue and satisfaction on one scorecard with ad ops and growth, so lowering ad density was argued once with the tradeoff visible, not renegotiated every release.",
+        pt: "Coloquei receita de ad de curto prazo e satisfacao no mesmo scorecard, com ad ops e growth na mesa, entao baixar a densidade de ads foi discutido uma vez com o trade-off visivel, nao renegociado a cada release."
+      }
+    ],
+    outcome: [
+      {
+        en: "Daily return became the growth lever: the user came back for the unlock, and the extra sessions carried the ad inventory.",
+        pt: "A volta diaria virou a alavanca de crescimento: o usuario retornava pelo unlock e a sessao extra carregava o inventario de ads."
+      },
+      {
+        en: "Paid features stopped being an interruption and became a sample, so the upgrade conversation started after the user had already felt the benefit.",
+        pt: "As features pagas deixaram de ser interrupcao e viraram amostra, entao a conversa de upgrade comecava depois de o usuario ja ter sentido o beneficio."
+      },
+      {
+        en: "Engagement and session time went up and the in-app satisfaction signal improved, with a lighter ad load than before.",
+        pt: "Engagement e tempo de sessao subiram e o sinal de satisfacao in-app melhorou, com uma carga de ads menor do que antes."
+      }
+    ],
+    metrics: [
+      { label: { en: "Active users on the product", pt: "Usuarios ativos no produto" }, value: "6M+" },
+      { label: { en: "Ads gating the first useful action", pt: "Ads na frente da primeira acao util" }, value: "0" },
+      { label: { en: "Session time after the redesign", pt: "Tempo de sessao apos o redesenho" }, value: "TODO:confirmar - variacao de tempo medio de sessao (ou retencao D7) apos o redesenho" }
+    ],
+    learning: {
+      en: "I would have instrumented the perceived value funnel from day one, to separate the effect of gamification from the effect of cutting intrusiveness.",
+      pt: "Teria instrumentado o funil de valor percebido desde o primeiro dia, para separar o efeito da gamificacao do efeito da reducao de intrusividade."
+    }
   }
-  // Os demais dois cases entram aqui pelo loop, na ordem do STATE.md:
-  // psafe-dfndr-monetization, continental-predictive-strategy
+  // O ultimo case entra aqui pelo loop, na ordem do STATE.md:
+  // continental-predictive-strategy
 ];

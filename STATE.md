@@ -7,7 +7,7 @@ Atualize este arquivo ao fim de cada ciclo. O comando /loop le daqui qual e o pr
 | 1 | Webmotors white label | webmotors-white-label | pronto | pronto | - | home + rota #/case/webmotors-white-label no ar, 1 TODO aberto |
 | 2 | Whirlpool decision support | whirlpool-decision-support | pronto | pronto | 4.2 | home + rota #/case/whirlpool-decision-support no ar, sem TODO |
 | 3 | Farfetch platform revamp | farfetch-platform-revamp | pronto | pronto | 4.0 | home + rota #/case/farfetch-platform-revamp no ar, sem TODO |
-| 4 | PSafe dfndr monetization | psafe-dfndr-monetization | pendente | pendente | - | pendente |
+| 4 | PSafe dfndr monetization | psafe-dfndr-monetization | pronto | pronto | 4.0 | home + rota #/case/psafe-dfndr-monetization no ar, 1 TODO aberto (metrica de sessao) |
 | 5 | Continental predictive strategy | continental-predictive-strategy | pendente | pendente | - | pendente |
 
 ## Migracao do repo existente (github.com/felipelima2602/portfolio)
@@ -36,6 +36,12 @@ Atualize este arquivo ao fim de cada ciclo. O comando /loop le daqui qual e o pr
       handover (02/2023), (b) GMV ou volume de pedidos que passava pelo checkout, ou (c) reducao do lead
       time de integracao de uma nova empresa do grupo. Metricas de hoje: 4 capacidades reescritas como
       servicos, 0 freeze de operacao, 2 times liderados. Nao bloqueia o ship.
+- [ ] PSafe: um numero de resultado do redesenho da monetizacao. Fica em
+      `cases[psafe-dfndr-monetization].metrics[2].value`. Basta UM: variacao do tempo medio de sessao
+      antes e depois, ou retencao D7. O case passa (4.0) e hoje renderiza duas metricas (6M+ usuarios
+      ativos, 0 ads na frente da primeira acao util); o criterio de impacto verificavel fica abaixo de 4
+      ate esse numero chegar. Se voce nao tiver nenhum, a terceira metrica sai e o outcome de engagement
+      vira mais conservador. Nao bloqueia o ship.
 - [ ] Foto de perfil, favicon e o PDF do CV em `assets/`.
 
 ## Log de ciclos
@@ -47,3 +53,8 @@ Atualize este arquivo ao fim de cada ciclo. O comando /loop le daqui qual e o pr
   (challenge com o custo recorrente na frente, trade-off concreto no lugar do cliche, outcomes enxutos,
   "0 freeze" virou metrica, hero carrega o custo) -> critic 4.0. QA limpo. TODO trocado por metrica real;
   teto do case travado ate o Felipe dar um numero de tamanho/adocao (ver perguntas abertas).
+- 2026-09-09 | psafe-dfndr-monetization | case escrito bilingue (order 4); critic 3.7 -> correcoes (hero
+  lidera pela decisao de modelo, nao por "redesenhei"; tag lider virou Monetization; outcome abre pelo
+  mecanismo; actions[4] nomeia ad ops e growth como contraparte; action de AI/ML cortada por nao servir a
+  tese; metricas viraram 6M+ ativos e "0 ads na frente da primeira acao util") -> critic 4.0. QA limpo.
+  1 TODO aberto: metrica de tempo de sessao/retencao (ver perguntas abertas).
