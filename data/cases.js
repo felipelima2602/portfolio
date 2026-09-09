@@ -297,7 +297,70 @@ export const cases = [
       en: "I would have instrumented the perceived value funnel from day one, to separate the effect of gamification from the effect of cutting intrusiveness.",
       pt: "Teria instrumentado o funil de valor percebido desde o primeiro dia, para separar o efeito da gamificacao do efeito da reducao de intrusividade."
     }
+  },
+  {
+    id: "continental-predictive-strategy",
+    order: 5,
+    company: "Continental",
+    role: { en: "Competitive Intelligence & Strategy Specialist", pt: "Competitive Intelligence e Strategy Specialist" },
+    period: "02/2023 - 03/2025",
+    location: { en: "Lousado, Portugal", pt: "Lousado, Portugal" },
+    tags: ["Corporate Strategy", "Competitive Intelligence", "IoT", "Data", "Global"],
+    headline: {
+      en: "My market read moved the portfolio to predictive",
+      pt: "Minha leitura de mercado levou o portfolio ao preditivo"
+    },
+    hero: {
+      en: "The bet I argued for was open integration and tread depth data, not another closed inspection app.",
+      pt: "A aposta que defendi era integracao aberta e dado de profundidade, nao mais um app de inspecao fechado."
+    },
+    context: {
+      en: "I ran corporate strategy and annual planning for Digital Tire Solutions at Continental. My input was market, competitor and business model analysis feeding portfolio, go-to-market and positioning decisions across global markets. The audience was senior leadership, not a delivery team.",
+      pt: "Conduzi a estrategia corporativa e o planejamento anual de Digital Tire Solutions na Continental. Meu insumo era analise de mercado, concorrencia e modelo de negocio para decisao de portfolio, go-to-market e posicionamento em mercados globais. O destinatario era a lideranca senior, nao um time de entrega."
+    },
+    challenge: {
+      en: "The digital portfolio was anchored in periodic measurement. Going digital was not the question, every competitor was already there. The question was which value proposition Continental should own, and whether it could differentiate or would just follow Michelin and Bridgestone into the same offer.",
+      pt: "O portfolio digital estava ancorado em medicao periodica. Ir para o digital nao era a duvida, todo concorrente ja estava la. A duvida era de qual proposta de valor a Continental deveria ser dona, e se dava para diferenciar ou seria so seguir Michelin e Bridgestone na mesma oferta."
+    },
+    actions: [
+      {
+        en: "Analyzed Michelin, Bridgestone and Goodyear on three axes at once, technology, business model and integrability, and landed the opening: open integration and depth data, not another closed inspection app.",
+        pt: "Analisei Michelin, Bridgestone e Goodyear em tres eixos ao mesmo tempo, tecnologia, modelo de negocio e integrabilidade, e cheguei ao espaco: integracao aberta e dado de profundidade, nao mais um app de inspecao fechado."
+      },
+      {
+        en: "Called the shift from periodic measurement to continuous predictive monitoring and defended it as the strategic direction of the ContiConnect platform, built on tread depth data plus a cloud algorithm.",
+        pt: "Identifiquei e defendi a virada de medicao periodica para monitoramento continuo e preditivo como direcao estrategica da plataforma ContiConnect, sustentada por dado de profundidade de sulco e algoritmo em cloud."
+      },
+      {
+        en: "Took the market read into the annual planning cycle as an investment argument: move funding from periodic inspection features to the predictive platform, and treat fleet management as the category to win.",
+        pt: "Levei a leitura de mercado para o ciclo de planejamento anual como argumento de investimento: tirar verba de features de inspecao periodica e por na plataforma preditiva, tratando gestao de frota como a categoria a ganhar."
+      },
+      {
+        en: "Ran the study on autonomous vehicles (AGVs) in port operations and presented it to global teams, putting an emerging automation segment on the strategic agenda.",
+        pt: "Conduzi o estudo de veiculos autonomos (AGVs) em operacao portuaria e apresentei a times globais, colocando um segmento emergente de automacao na agenda estrategica."
+      }
+    ],
+    outcome: [
+      {
+        en: "The Digital Tire Solutions annual plan adopted predictive maintenance and data driven fleet management as the portfolio direction, over continuing to fund periodic inspection tooling.",
+        pt: "O planejamento anual de Digital Tire Solutions adotou manutencao preditiva e gestao de frota orientada a dado como direcao do portfolio, no lugar de seguir bancando ferramenta de inspecao periodica."
+      },
+      {
+        en: "I used the pilot result, tread depth predicted with error under 1mm, as the evidence that made the predictive direction a defensible case on safety, uptime and tire life.",
+        pt: "Usei o resultado do piloto, profundidade de sulco prevista com erro abaixo de 1mm, como a evidencia que tornou a direcao preditiva um caso defensavel de seguranca, uptime e vida util do pneu."
+      },
+      {
+        en: "The AGV port study I ran carried the same thesis into port automation and reached global teams as decision input.",
+        pt: "O estudo de AGVs em portos que conduzi levou a mesma tese para a automacao portuaria e chegou aos times globais como base de decisao."
+      }
+    ],
+    metrics: [
+      { label: { en: "New portfolio direction set", pt: "Nova direcao de portfolio definida" }, value: "Predictive" },
+      { label: { en: "Tread depth prediction error in the pilot", pt: "Erro de previsao de profundidade de sulco" }, value: "<1mm" }
+    ],
+    learning: {
+      en: "I would have pulled the product team into the competitive analysis earlier, to shorten the distance between the market read and the roadmap.",
+      pt: "Teria trazido o time de produto para dentro da analise competitiva mais cedo, para encurtar a distancia entre a leitura de mercado e o roadmap."
+    }
   }
-  // O ultimo case entra aqui pelo loop, na ordem do STATE.md:
-  // continental-predictive-strategy
 ];

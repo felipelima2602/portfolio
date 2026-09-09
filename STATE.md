@@ -8,7 +8,7 @@ Atualize este arquivo ao fim de cada ciclo. O comando /loop le daqui qual e o pr
 | 2 | Whirlpool decision support | whirlpool-decision-support | pronto | pronto | 4.2 | home + rota #/case/whirlpool-decision-support no ar, sem TODO |
 | 3 | Farfetch platform revamp | farfetch-platform-revamp | pronto | pronto | 4.0 | home + rota #/case/farfetch-platform-revamp no ar, sem TODO |
 | 4 | PSafe dfndr monetization | psafe-dfndr-monetization | pronto | pronto | 4.0 | home + rota #/case/psafe-dfndr-monetization no ar, 1 TODO aberto (metrica de sessao) |
-| 5 | Continental predictive strategy | continental-predictive-strategy | pendente | pendente | - | pendente |
+| 5 | Continental predictive strategy | continental-predictive-strategy | pronto | pronto | 4.1 | home + rota #/case/continental-predictive-strategy no ar, sem TODO |
 
 ## Migracao do repo existente (github.com/felipelima2602/portfolio)
 - [x] Paleta e vocabulario visual do site antigo portados para `assets/styles.css`.
@@ -42,6 +42,13 @@ Atualize este arquivo ao fim de cada ciclo. O comando /loop le daqui qual e o pr
       ativos, 0 ads na frente da primeira acao util); o criterio de impacto verificavel fica abaixo de 4
       ate esse numero chegar. Se voce nao tiver nenhum, a terceira metrica sai e o outcome de engagement
       vira mais conservador. Nao bloqueia o ship.
+- [ ] Continental: um numero de escopo ou de investimento. O case passa (4.1) com duas metricas
+      ("Predictive" como nova direcao de portfolio, <1mm de erro do piloto). O criterio de impacto
+      verificavel fica abaixo de 4 ate voce dar UM destes, que vira a terceira metrica: (a) quantos
+      mercados ou paises o planejamento anual de Digital Tire Solutions cobria, (b) volume ou % de
+      investimento realocado da inspecao periodica para o preditivo, ou (c) em qual ano/foro global a
+      direcao foi adotada. Extra util para a entrevista: ter pronto quem defendia o orcamento de inspecao
+      periodica e o que voce cedeu para a virada passar. Nao bloqueia o ship.
 - [ ] Foto de perfil, favicon e o PDF do CV em `assets/`.
 
 ## Log de ciclos
@@ -58,3 +65,9 @@ Atualize este arquivo ao fim de cada ciclo. O comando /loop le daqui qual e o pr
   mecanismo; actions[4] nomeia ad ops e growth como contraparte; action de AI/ML cortada por nao servir a
   tese; metricas viraram 6M+ ativos e "0 ads na frente da primeira acao util") -> critic 4.0. QA limpo.
   1 TODO aberto: metrica de tempo de sessao/retencao (ver perguntas abertas).
+- 2026-09-09 | continental-predictive-strategy | case escrito bilingue (order 5); critic 3.8 ("soava a
+  narracao de tendencia") -> correcoes (headline/hero reivindicam a autoria da leitura, challenge sem o
+  "mercado ja ia pra la", actions[0] entrega a conclusao dos tres eixos, actions[2] vira recomendacao de
+  realocacao de verba, outcome[0] ativo e com perimetro Digital Tire Solutions, outcome[1] deixa claro
+  que ele usou o piloto como evidencia, AGV amarrado a tese) -> critic 4.1. QA limpo. TODO trocado por
+  metrica "Predictive"; teto travado ate numero de escopo/investimento (ver perguntas abertas).
